@@ -1,6 +1,9 @@
 
 ### Задача 1
 ### Ошибка в затратах на рекламу
+[task1.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/78f2ff9e31f76d6b6e1fdabf3052f88bc05ba12c/%D0%A3%D1%80%D0%BE%D0%BA%201.%20%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2/task1.py)
+
+[task1GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/78f2ff9e31f76d6b6e1fdabf3052f88bc05ba12c/%D0%A3%D1%80%D0%BE%D0%BA%201.%20%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2/task1GB.py)
 
 Дан список adv с затратами на рекламу.
 Но в данных есть ошибки, некоторые затраты имеют отрицательную величину.
