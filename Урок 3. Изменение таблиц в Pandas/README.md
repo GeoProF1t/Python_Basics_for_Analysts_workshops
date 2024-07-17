@@ -1,7 +1,7 @@
 
 ### Задача 1
 ### Вывести на экран первые 5 строк
-[task1GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/78f2ff9e31f76d6b6e1fdabf3052f88bc05ba12c/%D0%A3%D1%80%D0%BE%D0%BA%201.%20%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2/task1.py)
+[task1GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/538549fb93996ea352a5fbdf03eead62db54d70e/%D0%A3%D1%80%D0%BE%D0%BA%203.%20%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%20%D0%B2%20Pandas/task1.py)
 
 Данные находятся в файле kc_house_data.csv.
 
@@ -20,7 +20,7 @@
 ### Задача 2
 ### Датафреймы
 
-[task2GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/4f3d6787683cae632e248a62ebca94a28fff7b20/%D0%A3%D1%80%D0%BE%D0%BA%201.%20%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2/task2.py)
+[task2GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/538549fb93996ea352a5fbdf03eead62db54d70e/%D0%A3%D1%80%D0%BE%D0%BA%203.%20%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%20%D0%B2%20Pandas/task2.py)
 
 Создайте датафрейм с клиентами и сохраните его в clients.
 'client_id': [1459, 4684, 3498, 3942, 4535, 2308, 2866, 2765, 1472, 4236, 2295, 939, 3840, 280, 20, 4332, 3475, 4213, 3113, 4809, 2134, 2242, 2068, 4929, 1384, 1589, 3317, 2260, 1727, 1764, 1611, 1474], 'house_id': [8965450190, 6823100225, 5104540330, 2131701075, 1522700060, 1189000207, 6821600300, 7137950720, 9510920050, 6131600255, 5428000070, 1788800910, 8100400160, 3123049142, 6306800010, 5083000375, 7920100025, 1951600150, 809001400, 339600110, 1622049154, 1099600250, 8563000110, 2768100205, 3995700435, 8861700030, 3303980210, 7731100066, 8146100580, 825069097, 3889100029, 9524100196]
@@ -29,14 +29,11 @@
 Данные находятся в файле kc_house_data.csv. Это нужно, чтобы понимать, какие дома покупались клиентами.
 house_id - это индексы датафрейма с домами.
 
-Присоедините к таблице clients данные по домам через метод merge и сохраните в merged.
-Это нужно, чтобы понимать, какие дома покупались клиентами.
-house_id - это индексы датафрейма с домами.
 -----------------------------------
 ### Задача 3
 ### Составьте несколько сводных таблиц
 
-[task3GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/4f3d6787683cae632e248a62ebca94a28fff7b20/%D0%A3%D1%80%D0%BE%D0%BA%201.%20%D0%9E%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9%20%D0%B8%20%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%B2/task3.py)
+[task3GB.py](https://github.com/vadvad81/Python_Basics_for_Analysts_workshops/blob/538549fb93996ea352a5fbdf03eead62db54d70e/%D0%A3%D1%80%D0%BE%D0%BA%203.%20%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%20%D0%B2%20Pandas/task3.py)
 
 Составьте несколько сводных таблиц.
 Данные находятся в файле kc_house_data.csv.
