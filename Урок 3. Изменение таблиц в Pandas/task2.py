@@ -3,7 +3,6 @@ df = pd.read_csv('kc_house_data.csv', sep=',')
 clients = pd.DataFrame({
     'client_id': [1459, 4684, 3498, 3942, 4535, 2308, 2866, 2765, 1472, 4236, 2295, 939, 3840, 280, 20, 4332, 3475, 4213, 3113, 4809, 2134, 2242, 2068, 4929, 1384, 1589, 3317, 2260, 1727, 1764, 1611, 1474],
 
-
 'house_id': 
 [
     8965450190, 6823100225, 5104540330, 2131701075, 1522700060, 1189000207,
@@ -16,7 +15,6 @@ clients = pd.DataFrame({
 })
 
 clients_house_id = clients.set_index('house_id')
-
 
 df_idx = df.set_index('id')
 
